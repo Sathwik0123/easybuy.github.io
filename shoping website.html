@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Product Information</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+
+        table {
+            height: 100%;
+            width: 100%;
+        }
+
+        @keyframes disco {
+            0% {
+                color: red;
+            }
+
+            25% {
+                color: green;
+            }
+
+            50% {
+                color: blue;
+            }
+
+            75% {
+                color: yellow;
+            }
+
+            100% {
+                color: purple;
+            }
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <p style="animation: disco 3s infinite, rotate 3s 1; font-size: 30px; text-align: center;">Welcome to</p>
+    <h1 align="center">Shopping Zone</h1>
+
+    <table id="1" border="2">
+        <tr align="center" style="background-color: red; height: 30px;">
+            <td>1</td>
+            <td><a href="phone.html" target="_blank">phone</a></td>
+        </tr>
+        <tr align="center" style="background-color: red; height: 30px;">
+            <td>2</td>
+            <td><a href="earbuds.html" target="_blank">earbuds</a></td>
+        </tr>
+        <tr align="center" style="background-color: red; height: 30px;">
+            <td>3</td>
+            <td><a href="smartwatch.html" target="_blank">smart watch</a></td>
+        </tr>
+        <tr align="center" style="background-color: red; height: 30px;">
+            <td>4</td>
+            <td><a href="grocery.html" target="_blank">grocery</a></td>
+        </tr>
+    </table>
+</body>
+
+</html>
